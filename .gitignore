@@ -1,3 +1,5 @@
-
 # Ignore the nvim config, as it's in its own repo
 .config/nvim/
+nvim
+/nvim/
+**/nvim/
