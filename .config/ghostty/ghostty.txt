@@ -1,0 +1,43 @@
+## --- THEME and COLOURS --- ## 
+theme = kanagawa-wave
+title = "Ghostty 👻"
+window-theme = auto
+window-colorspace = display-p3
+
+## --- CLIPBOARD --- ## 
+clipboard-read = allow
+clipboard-write = allow
+clipboard-trim-trailing-spaces = true
+copy-on-select = clipboard
+
+## --- APPEARANCE --- ## 
+mouse-hide-while-typing = true
+window-decoration = true
+macos-titlebar-style = transparent
+gtk-titlebar = false
+quick-terminal-animation-duration = 0.0
+
+## -- FUNCTIONS -- ## 
+window-inherit-working-directory = true
+
+## --- TERMINAL --- ## 
+quick-terminal-space-behavior = remain
+quick-terminal-position = bottom
+
+
+## --- PERFORMANCE --- ## 
+click-repeat-interval = 15
+
+
+## --- FONTS --- ## 
+# font-family = "Hack Nerd Font Mono"
+font-family = JetBrains Mono
+# font-family = "MonaspiceAr Nerd Font"
+font-size = 19
+
+## -- KEYBINDS -- ##
+macos-option-as-alt = true
+keybind = alt+a=previous_tab
+keybind = alt+d=next_tab
+keybind = global:ctrl+space=toggle_quick_terminal
+keybind = ctrl+r=reload_config
